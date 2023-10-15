@@ -1,0 +1,139 @@
+body{
+    background: url("https://media.istockphoto.com/photos/clear-blue-sky-as-a-background-wallpaper-pastel-sky-wallpaper-picture-id608634136?k=20&m=608634136&s=170667a&w=0&h=QqB80Ci9iSHOw0OjdM1fNbEeDrSvHG7-YuXNf_TcQnE=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    font-family: "do hyeon";
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 550px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerL{
+    margin-right: 40px;
+}
+.innerR{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    align-items: center;
+}
+.memoBtn{
+    all:unset;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-color: whitesmoke;
+    background-color: whitesmoke;
+}
+.green{
+    border-color: green;
+    background-color: green;
+}
+.red{
+    border-color: red;
+    background-color: red;
+}
+.white{
+    border-color: whitesmoke;
+    background-color: whitesmoke;
+}
+.area{
+    font-size: 1.5em;
+}
+#result-area{
+    display: flex;
+    justify-content: center;
+}
+.sb{
+    margin-left:15px;
+    margin-right:15px;
+}
+.user, .userMemo {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 10px;
+    margin-left:3px;
+    margin-right:3px;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;    
+}
+#btn-area{
+    margin-top: 10px;
+}
+#ex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.ex1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    margin-left: 10px;
+}
+.ex2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+    margin-left: 10px;
+}
+.ex3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 10px;
+}
+.exT{
+    margin-left : 10px;
+}
+#status-area{
+    width: 380px;
+}
+#memo-table{
+    margin-top: 10px;
+    height: 200px;
+    border: 2px solid gray;
+    
+}
+td{
+    border: 2px solid gray;
+    width: 125px;
+    text-align: left;
+    text-indent: 10px;
+}
+th{
+    border: 2px solid gray;
+    width: 40px;
+}
+.mt{
+    margin-top: 20px;
+}
+.reset{
+    
+    border-radius: 10px;
+    border-color: red;
+    background-color: red;
+    color: white;
+}
